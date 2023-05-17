@@ -1,28 +1,63 @@
-body{
-  color: #FC4308;
+body {
+	color: #fc4308;
 }
 
-.navbar .collapse.navbar-collapse{
-  flex-grow: inherit;
+.header__bg {
+	background: linear-gradient(
+			233.95deg,
+			#0d1e20 -73.12%,
+			#313e2a 53.36%,
+			#262d20 103.17%
+		),
+		#ffffff;
+	background-blend-mode: multiply, multiply, normal;
 }
 
-.navbar a{
-  color: #FC4308;
+.navbar .collapse.navbar-collapse {
+	flex-grow: inherit;
 }
 
-.navbar .navbar-toggler{
-  border-color: #FC4308;
+.navbar a {
+	color: #fc4308;
 }
 
-.nav-link:focus, .nav-link:hover {
-  color: #FC4308;
+.navbar .navbar-toggler {
+	border-color: #fc4308;
 }
 
-.navbar-toggler:focus{
-  box-shadow: none;
+.nav-link:focus,
+.nav-link:hover {
+	color: #fc4308;
 }
 
+.navbar-toggler:focus {
+	box-shadow: none;
+}
 
+.header__content{
+  height: calc(100vh - 56px);
+}
 
+.header__img{
+  width: 220px;
+}
 
+@media (min-width: 576px) {
+  .header__img{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+}
 
+.galeria{
+  background-color: #0E1513;
+  padding: 40px 0;
+}
+
+@media(min-width: 1024px){
+  .galeria{
+    padding: 80px 120px;
+  }
+}
+  

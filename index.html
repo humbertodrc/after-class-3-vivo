@@ -18,37 +18,94 @@
 
   <main>
 
-    <nav class="navbar navbar-expand-lg bg-transparent">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img class="mx-2" src="img/logo.svg" alt="logo">
-          Capture Studio
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <!-- <span class="navbar-toggler-icon"></span> -->
-          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#FC4308" class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-          </svg>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portraits</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Fashion</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Fine Art</a>
-            </li>
-          </ul>
+    <div class="header__bg">
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img class="mx-2" src="img/logo.svg" alt="logo">
+            Capture Studio
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#FC4308" class="bi bi-list"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portraits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Fashion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Fine Art</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header Conetent -->
+      <div class="header__content container-fluid pt-5 d-flex align-items-center justify-content-center">
+        <div class="row">
+          <!-- Texto -->
+          <div class="col-12 col-sm-6 d-flex flex-column justify-content-center">
+            <h1>We Capture the World</h1>
+            <p>At our studio, we don't just take pictures - we capture the world. Our passion for photography goes
+              beyond just snapping a photo - we strive to create images that tell a story, evoke emotions, and capture
+              the essence of the world around us.</p>
+          </div>
+          <!-- Img -->
+          <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center">
+            <img class="img-fluid header__img" src="img/img-header.png" alt="imagen del header">
+          </div>
         </div>
       </div>
-    </nav>
+    </div>
+
+    <!-- Galeria -->
+    <section class="galeria">
+      <div class="container">
+        <!-- Titulo -->
+        <div class="row">
+          <h2 class="mb-5 display-3 fw-semibold">Our work</h2>
+        </div>
+        <div class="row">
+          <!-- 1 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <img class="img-fluid" src="img/galeria-img-1.png" alt="">
+            <div class="mt-4">
+              <span>2018</span>
+              <p>Aisha Patel</p>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <img class="img-fluid" src="img/galeria-img-2.png" alt="">
+            <div class="mt-4">
+              <span>2021</span>
+              <p>Isabella Costa</p>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="col-12 col-sm-6 col-lg-4">
+            <img class="img-fluid" src="img/galeria-img-3.png" alt="">
+            <div class="mt-4">
+              <span>2022</span>
+              <p>Fatima Hassan</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
   </main>
